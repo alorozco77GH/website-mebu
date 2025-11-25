@@ -1,0 +1,136 @@
+.about {
+  width: 100%;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.3rem;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  opacity: 0.95;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.about-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  color: #282c34;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #61dafb;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.about-section p {
+  color: #666;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.value-item {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #61dafb;
+  transition: all 0.3s ease;
+}
+
+.value-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.value-item h3 {
+  color: #282c34;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.value-item p {
+  color: #666;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.team-section {
+  background: #282c34;
+  color: white;
+  padding: 3rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #61dafb;
+}
+
+.team-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 1.5rem auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.team-section p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+}

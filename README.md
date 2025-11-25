@@ -1,18 +1,77 @@
-# Getting Started with Create React App
+# MeBu - Soluciones Digitales Profesionales
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MeBu Logo](public/favicon.ico)
 
-## Available Scripts
+## 📋 Descripción
 
-In the project directory, you can run:
+MeBu es una plataforma web moderna que ofrece soluciones digitales profesionales para negocios. Desarrollada con React y diseñada con enfoque en la experiencia del usuario, rendimiento y SEO.
 
-### `npm start`
+## ✨ Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ Diseño responsive y moderno
+- ✅ Navegación fluida con React Router
+- ✅ Componentes modulares y reutilizables
+- ✅ SEO optimizado
+- ✅ Arquitectura escalable
+- ✅ Formulario de contacto funcional
+- ✅ Secciones: Inicio, Nosotros, Servicios, Contacto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologías Utilizadas
+
+- **React 19.2.0** - Framework principal
+- **React Router DOM** - Navegación
+- **CSS3** - Estilos personalizados
+- **Create React App** - Configuración inicial
+
+## 📁 Estructura del Proyecto
+
+```
+website-mebu/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   └── Layout.js
+│   │   └── common/
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Services.js
+│   │   └── Contact.js
+│   ├── hooks/
+│   ├── utils/
+│   ├── contexts/
+│   ├── assets/
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+└── package.json
+```
+
+## 🛠️ Instalación
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/alorozco77GH/website-mebu.git
+cd website-mebu
+```
+
+2. Instala las dependencias:
+```bash
+npm install
+```
+
+3. Inicia el servidor de desarrollo:
+```bash
+npm start
+```
+
+La aplicación se abrirá en [http://localhost:3000](http://localhost:3000)
 
 ### `npm test`
 
