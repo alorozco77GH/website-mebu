@@ -5,7 +5,7 @@
 .services-hero {
   text-align: center;
   padding: 3rem 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0CCE6B 0%, #0AAA58 100%); /* green9-green10: Step 9-10 Solid backgrounds */
   color: white;
   border-radius: 8px;
   margin-bottom: 3rem;
@@ -24,10 +24,11 @@
 }
 
 .service-card {
-  background: white;
+  background: #FEF9C3; /* yellow2 - Step 2: Subtle background */
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #EAB308; /* yellow6 - Step 6: Subtle borders */
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -45,14 +46,14 @@
 }
 
 .service-card h3 {
-  color: #282c34;
+  color: #0A0A0A; /* gray12 - Step 12: High-contrast text */
   font-size: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
 }
 
 .service-description {
-  color: #666;
+  color: #525252; /* gray11 - Step 11: Low-contrast text */
   line-height: 1.6;
   margin-bottom: 1.5rem;
   flex-grow: 1;
@@ -65,9 +66,9 @@
 }
 
 .service-features li {
-  color: #666;
+  color: #525252; /* gray11 - Step 11: Low-contrast text */
   padding: 0.5rem 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EAB308; /* yellow6 - Step 6: Subtle borders */
 }
 
 .service-features li:last-child {
@@ -75,8 +76,8 @@
 }
 
 .service-btn {
-  background-color: #61dafb;
-  color: #282c34;
+  background-color: #EF2D56; /* red9 - Step 9: Solid backgrounds */
+  color: white;
   padding: 0.8rem 1.5rem;
   border-radius: 6px;
   text-decoration: none;
@@ -87,12 +88,12 @@
 }
 
 .service-btn:hover {
-  background-color: #4fc3f7;
+  background-color: #D91E42; /* red10 - Step 10: Hovered solid backgrounds */
   transform: scale(1.05);
 }
 
 .services-cta {
-  background-color: #282c34;
+  background-color: #262626; /* gray9 - Step 9: Solid backgrounds */
   color: white;
   padding: 3rem;
   border-radius: 8px;

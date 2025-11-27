@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #DCED31; /* yellow - Lemon Lime background */
+  color: #0A0A0A; /* gray12 - Step 12: High-contrast text */
 }
 
 code {

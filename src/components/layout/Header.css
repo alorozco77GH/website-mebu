@@ -19,7 +19,7 @@
 .logo h1 {
   margin: 0;
   font-size: 2rem;
-  color: #61dafb;
+  color: #DDED31; /* yellow9 - Step 9: Solid backgrounds (logo accent) */
   font-weight: bold;
 }
 
@@ -56,8 +56,9 @@
 }
 
 .nav-list li a:hover {
-  color: #61dafb;
-  background-color: rgba(97, 218, 251, 0.1);
+  color: #0CCE6B; /* green9 - Step 9: Solid backgrounds */
+  background-color: #86EFAC; /* green4 - Step 4: Hovered UI element background */
+  color: #14532D; /* green12 - Step 12: High-contrast text */
 }
 
 .menu-toggle {
@@ -121,7 +122,7 @@
     right: -100%;
     width: 70%;
     max-width: 300px;
-    background-color: #282c34;
+    background-color: #262626; /* gray9 - Step 9: Solid backgrounds */
     padding: 2rem;
     transition: right 0.3s ease;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);

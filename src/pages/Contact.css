@@ -5,7 +5,7 @@
 .contact-hero {
   text-align: center;
   padding: 3rem 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0CCE6B 0%, #0AAA58 100%); /* green9-green10: Step 9-10 Solid backgrounds */
   color: white;
   border-radius: 8px;
   margin-bottom: 3rem;
@@ -24,18 +24,19 @@
 }
 
 .contact-info {
-  background: white;
+  background: #FEF9C3; /* yellow2 - Step 2: Subtle background */
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #EAB308; /* yellow6 - Step 6: Subtle borders */
   height: fit-content;
 }
 
 .contact-info h2 {
-  color: #282c34;
+  color: #0A0A0A; /* gray12 - Step 12: High-contrast text */
   margin-bottom: 2rem;
   font-size: 1.5rem;
-  border-bottom: 3px solid #61dafb;
+  border-bottom: 3px solid #16A34A; /* green7 - Step 7: UI element border */
   padding-bottom: 0.5rem;
 }
 
@@ -61,28 +62,29 @@
 }
 
 .info-item h3 {
-  color: #282c34;
+  color: #0A0A0A; /* gray12 - Step 12: High-contrast text */
   margin: 0 0 0.5rem 0;
   font-size: 1.1rem;
 }
 
 .info-item p {
-  color: #666;
+  color: #525252; /* gray11 - Step 11: Low-contrast text */
   margin: 0;
 }
 
 .contact-form-container {
-  background: white;
+  background: #FEF9C3; /* yellow2 - Step 2: Subtle background */
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #EAB308; /* yellow6 - Step 6: Subtle borders */
 }
 
 .contact-form-container h2 {
-  color: #282c34;
+  color: #0A0A0A; /* gray12 - Step 12: High-contrast text */
   margin-bottom: 2rem;
   font-size: 1.5rem;
-  border-bottom: 3px solid #61dafb;
+  border-bottom: 3px solid #16A34A; /* green7 - Step 7: UI element border */
   padding-bottom: 0.5rem;
 }
 
@@ -98,7 +100,7 @@
 }
 
 .form-group label {
-  color: #282c34;
+  color: #0A0A0A; /* gray12 - Step 12: High-contrast text */
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
@@ -106,18 +108,19 @@
 .form-group input,
 .form-group textarea {
   padding: 0.8rem;
-  border: 2px solid #e0e0e0;
+  border: 2px solid #EAB308; /* yellow6 - Step 6: Subtle borders */
   border-radius: 6px;
   font-size: 1rem;
   font-family: inherit;
+  background-color: #FEFCE8; /* yellow1 - Step 1: App background */
   transition: all 0.3s ease;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #61dafb;
-  box-shadow: 0 0 0 3px rgba(97, 218, 251, 0.1);
+  border-color: #16A34A; /* green7 - Step 7: UI element border and focus rings */
+  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.1);
 }
 
 .form-group textarea {
@@ -126,8 +129,8 @@
 }
 
 .submit-btn {
-  background-color: #61dafb;
-  color: #282c34;
+  background-color: #EF2D56; /* red9 - Step 9: Solid backgrounds */
+  color: white;
   padding: 1rem 2rem;
   border: none;
   border-radius: 6px;
@@ -138,13 +141,13 @@
 }
 
 .submit-btn:hover {
-  background-color: #4fc3f7;
+  background-color: #D91E42; /* red10 - Step 10: Hovered solid backgrounds */
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(97, 218, 251, 0.3);
+  box-shadow: 0 5px 15px rgba(239, 45, 86, 0.3);
 }
 
 .success-message {
-  background-color: #4caf50;
+  background-color: #0CCE6B; /* green9 - Step 9: Solid backgrounds */
   color: white;
   padding: 1rem;
   border-radius: 6px;

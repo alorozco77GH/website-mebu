@@ -18,35 +18,35 @@
 
 /* Variants */
 .btn-primary {
-  background-color: #61dafb;
-  color: #282c34;
+  background-color: #EF2D56; /* red9 - Step 9: Solid backgrounds */
+  color: white;
 }
 
 .btn-primary:hover:not(:disabled) {
-  background-color: #4fc3f7;
+  background-color: #D91E42; /* red10 - Step 10: Hovered solid backgrounds */
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(97, 218, 251, 0.3);
+  box-shadow: 0 5px 15px rgba(239, 45, 86, 0.3);
 }
 
 .btn-secondary {
-  background-color: #282c34;
+  background-color: #262626; /* gray9 - Step 9: Solid backgrounds */
   color: white;
 }
 
 .btn-secondary:hover:not(:disabled) {
-  background-color: #1a1d23;
+  background-color: #171717; /* gray10 - Step 10: Hovered solid backgrounds */
   transform: translateY(-2px);
 }
 
 .btn-outline {
   background-color: transparent;
-  border: 2px solid #61dafb;
-  color: #61dafb;
+  border: 2px solid #16A34A; /* green7 - Step 7: UI element border */
+  color: #0CCE6B; /* green9 - Step 9: Solid backgrounds */
 }
 
 .btn-outline:hover:not(:disabled) {
-  background-color: #61dafb;
-  color: #282c34;
+  background-color: #0CCE6B; /* green9 - Step 9: Solid backgrounds */
+  color: white;
 }
 
 /* Sizes */

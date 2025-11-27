@@ -1,5 +1,5 @@
 .footer {
-  background-color: #1a1d23;
+  background-color: #171717; /* gray10 - Step 10: Hovered solid backgrounds (darker footer) */
   color: white;
   padding: 3rem 0 1rem;
   margin-top: auto;
@@ -15,13 +15,13 @@
 }
 
 .footer-section h3 {
-  color: #61dafb;
+  color: #DDED31; /* yellow9 - Step 9: Solid backgrounds */
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .footer-section h4 {
-  color: #61dafb;
+  color: #DDED31; /* yellow9 - Step 9: Solid backgrounds */
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
@@ -49,7 +49,7 @@
 }
 
 .footer-section ul li a:hover {
-  color: #61dafb;
+  color: #0CCE6B; /* green9 - Step 9: Solid backgrounds */
 }
 
 .social-links {
@@ -63,7 +63,7 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #282c34;
+  background-color: #262626; /* gray9 - Step 9: Solid backgrounds */
   color: white;
   text-decoration: none;
   border-radius: 50%;
@@ -71,8 +71,8 @@
 }
 
 .social-links a:hover {
-  background-color: #61dafb;
-  color: #282c34;
+  background-color: #EF2D56; /* red9 - Step 9: Solid backgrounds */
+  color: white;
   transform: translateY(-3px);
 }
 
@@ -80,7 +80,7 @@
   text-align: center;
   padding: 2rem 0 1rem;
   margin-top: 2rem;
-  border-top: 1px solid #282c34;
+  border-top: 1px solid #262626; /* gray9 - Step 9: Solid backgrounds */
 }
 
 .footer-bottom p {

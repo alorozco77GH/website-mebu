@@ -1,13 +1,73 @@
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="400" height="300" fill="url(#heroGrad)" />
-  <circle cx="200" cy="150" r="80" fill="rgba(255,255,255,0.2)" />
-  <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="white" font-size="60" font-weight="bold" font-family="Arial, sans-serif">
-    MeBu
-  </text>
+  <!-- Ratón estilo cómic comiendo chocolate - Hero -->
+  
+  <!-- Sombra -->
+  <ellipse cx="210" cy="285" rx="75" ry="12" fill="#00000025"/>
+  
+  <!-- Cuerpo -->
+  <ellipse cx="200" cy="205" rx="72" ry="80" fill="#999999" stroke="#333333" stroke-width="4"/>
+  
+  <!-- Orejas -->
+  <ellipse cx="155" cy="135" rx="30" ry="40" fill="#999999" stroke="#333333" stroke-width="4"/>
+  <ellipse cx="245" cy="135" rx="30" ry="40" fill="#999999" stroke="#333333" stroke-width="4"/>
+  <ellipse cx="155" cy="140" rx="17" ry="24" fill="#FF6B9D"/>
+  <ellipse cx="245" cy="140" rx="17" ry="24" fill="#FF6B9D"/>
+  
+  <!-- Cabeza -->
+  <circle cx="200" cy="180" r="56" fill="#AAAAAA" stroke="#333333" stroke-width="4"/>
+  
+  <!-- Hocico -->
+  <ellipse cx="200" cy="200" rx="32" ry="22" fill="#CCCCCC" stroke="#333333" stroke-width="3"/>
+  
+  <!-- Nariz -->
+  <ellipse cx="200" cy="192" rx="7" ry="5" fill="#E91E63" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="200" cy="191" r="2.5" fill="white" opacity="0.7"/>
+  
+  <!-- Ojos expresivos cerrados -->
+  <path d="M 177 168 Q 182 172 187 168" stroke="#333333" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 213 168 Q 218 172 223 168" stroke="#333333" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Cejas expresivas -->
+  <path d="M 172 158 Q 180 156 188 158" stroke="#555555" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 212 158 Q 220 156 228 158" stroke="#555555" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bigotes definidos -->
+  <line x1="145" y1="195" x2="105" y2="190" stroke="#333333" stroke-width="3" stroke-linecap="round"/>
+  <line x1="145" y1="202" x2="105" y2="207" stroke="#333333" stroke-width="3" stroke-linecap="round"/>
+  <line x1="255" y1="195" x2="295" y2="190" stroke="#333333" stroke-width="3" stroke-linecap="round"/>
+  <line x1="255" y1="202" x2="295" y2="207" stroke="#333333" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Barra de chocolate con detalles -->
+  <rect x="180" y="220" width="48" height="32" rx="3" fill="#6B3410" stroke="#331a08" stroke-width="3"/>
+  <line x1="204" y1="220" x2="204" y2="252" stroke="#331a08" stroke-width="3"/>
+  <line x1="180" y1="236" x2="228" y2="236" stroke="#331a08" stroke-width="3"/>
+  <!-- Brillos en chocolate -->
+  <rect x="208" y="223" width="12" height="3" fill="#8B4513" opacity="0.7"/>
+  <rect x="185" y="240" width="8" height="2" fill="#8B4513" opacity="0.5"/>
+  
+  <!-- Mordida estilo cómic -->
+  <path d="M 175 225 Q 168 230 175 235" fill="#AAAAAA" stroke="#333333" stroke-width="2.5"/>
+  
+  <!-- Manitas sosteniendo -->
+  <ellipse cx="172" cy="236" rx="11" ry="7" fill="#999999" stroke="#333333" stroke-width="2.5"/>
+  <ellipse cx="235" cy="236" rx="11" ry="7" fill="#999999" stroke="#333333" stroke-width="2.5"/>
+  <!-- Dedos definidos -->
+  <circle cx="167" cy="233" r="3.5" fill="#888888" stroke="#333333" stroke-width="1"/>
+  <circle cx="172" cy="231" r="3.5" fill="#888888" stroke="#333333" stroke-width="1"/>
+  <circle cx="230" cy="231" r="3.5" fill="#888888" stroke="#333333" stroke-width="1"/>
+  <circle cx="235" cy="233" r="3.5" fill="#888888" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Cola expresiva -->
+  <path d="M 130 245 Q 105 258 98 278" stroke="#999999" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 130 245 Q 105 258 98 278" stroke="#333333" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.3"/>
+  
+  <!-- Patitas con detalles -->
+  <ellipse cx="175" cy="275" rx="14" ry="8" fill="#999999" stroke="#333333" stroke-width="2.5"/>
+  <ellipse cx="225" cy="275" rx="14" ry="8" fill="#999999" stroke="#333333" stroke-width="2.5"/>
+  <!-- Dedos patitas -->
+  <line x1="170" y1="281" x2="170" y2="285" stroke="#777777" stroke-width="1.5"/>
+  <line x1="175" y1="282" x2="175" y2="287" stroke="#777777" stroke-width="1.5"/>
+  <line x1="180" y1="281" x2="180" y2="285" stroke="#777777" stroke-width="1.5"/>
+  <line x1="220" y1="281" x2="220" y2="285" stroke="#777777" stroke-width="1.5"/>
+  <line x1="225" y1="282" x2="225" y2="287" stroke="#777777" stroke-width="1.5"/>
+  <line x1="230" y1="281" x2="230" y2="285" stroke="#777777" stroke-width="1.5"/>
 </svg>

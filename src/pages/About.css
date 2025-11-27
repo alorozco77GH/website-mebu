@@ -5,7 +5,7 @@
 .about-hero {
   text-align: center;
   padding: 3rem 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0CCE6B 0%, #0AAA58 100%); /* green9-green10: Step 9-10 Solid backgrounds */
   color: white;
   border-radius: 8px;
   margin-bottom: 3rem;
@@ -32,23 +32,24 @@
 }
 
 .about-section {
-  background: white;
+  background: #FEF9C3; /* yellow2 - Step 2: Subtle background */
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #EAB308; /* yellow6 - Step 6: Subtle borders */
 }
 
 .about-section h2 {
-  color: #282c34;
+  color: #0A0A0A; /* gray12 - Step 12: High-contrast text */
   font-size: 2rem;
   margin-bottom: 1rem;
-  border-bottom: 3px solid #61dafb;
+  border-bottom: 3px solid #16A34A; /* green7 - Step 7: UI element border */
   padding-bottom: 0.5rem;
   display: inline-block;
 }
 
 .about-section p {
-  color: #666;
+  color: #525252; /* gray11 - Step 11: Low-contrast text */
   line-height: 1.8;
   font-size: 1.1rem;
 }
@@ -61,10 +62,10 @@
 }
 
 .value-item {
-  background: #f8f9fa;
+  background: #FEF08A; /* yellow3 - Step 3: UI element background */
   padding: 1.5rem;
   border-radius: 8px;
-  border-left: 4px solid #61dafb;
+  border-left: 4px solid #16A34A; /* green7 - Step 7: UI element border */
   transition: all 0.3s ease;
 }
 
@@ -74,19 +75,19 @@
 }
 
 .value-item h3 {
-  color: #282c34;
+  color: #0A0A0A; /* gray12 - Step 12: High-contrast text */
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
 }
 
 .value-item p {
-  color: #666;
+  color: #525252; /* gray11 - Step 11: Low-contrast text */
   margin: 0;
   font-size: 1rem;
 }
 
 .team-section {
-  background: #282c34;
+  background: #262626; /* gray9 - Step 9: Solid backgrounds */
   color: white;
   padding: 3rem;
   border-radius: 8px;
