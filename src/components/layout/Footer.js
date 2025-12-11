@@ -24,11 +24,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-left">
-          <div className="footer-logo">
-            <img src={logo} alt="MeBu Logo" className="footer-logo-image" />
-            <h2>MeBu</h2>
-          </div>
+        <div className="footer-logo-section">
+          <img src={logo} alt="MeBu Logo" className="footer-logo-image" />
+          <h2>MeBu</h2>
+        </div>
+        
+        <div className="footer-center">
           <div className="footer-contact">
             <p>MeBu, Medellín, Colombia</p>
             <p>contacto@mebu.com</p>
@@ -43,13 +44,6 @@ const Footer = () => {
           <div className="footer-copyright">
             <p>&copy; {currentYear} MeBu, soluciones digitales</p>
           </div>
-        </div>
-
-        <div className="footer-right">
-          <nav className="footer-nav">
-            <a href="#nosotros" onClick={(e) => scrollToSection(e, 'nosotros')}>Nosotros</a>
-            <a href="#servicios" onClick={(e) => scrollToSection(e, 'servicios')}>Servicios</a>
-          </nav>
         </div>
       </div>
     </footer>
