@@ -6,38 +6,27 @@ const Services = () => {
     {
       title: 'Desarrollo Web',
       icon: '💻',
-      description: 'Creamos sitios web modernos, responsivos y optimizados para tu negocio.',
-      features: ['Diseño responsive', 'SEO optimizado', 'Alta velocidad', 'Seguridad']
+      description: 'Creamos sitios web modernos, responsivos para tu negocio.',
+      features: ['Diseño responsive', 'Simplicidad', 'Alta velocidad', 'Seguridad']
     },
     {
-      title: 'Aplicaciones Móviles',
+      title: 'Progressive Web Apps',
       icon: '📱',
-      description: 'Desarrollamos aplicaciones móviles nativas y multiplataforma.',
-      features: ['iOS y Android', 'UX intuitiva', 'Rendimiento óptimo', 'Integración API']
+      description: 'Creamos aplicaciones web que funcionan como apps, rápidas, seguras y disponibles en cualquier dispositivo.',
+      features: ['Instalable en dispositivos', 'Responsive y multiplataforma', 'Rendimiento óptimo', 'Integración con APIs y servicios web']
     },
     {
-      title: 'Consultoría Digital',
-      icon: '🎯',
-      description: 'Asesoramiento experto para transformar tu presencia digital.',
-      features: ['Estrategia digital', 'Análisis de mercado', 'Optimización', 'Mejores prácticas']
-    },
-    {
-      title: 'E-Commerce',
-      icon: '🛒',
-      description: 'Soluciones completas de comercio electrónico para vender online.',
+      title: 'Implementación con IA',
+      icon: '🤖',
+      description: ' IA práctica, confiable y orientada a resultados reales en tu operación.',
       features: ['Tienda online', 'Pagos seguros', 'Gestión productos', 'Analytics']
     },
+    
     {
-      title: 'Mantenimiento',
-      icon: '🔧',
-      description: 'Soporte continuo y mantenimiento para tus proyectos digitales.',
-      features: ['Actualizaciones', 'Seguridad', 'Backups', 'Soporte 24/7']
-    },
-    {
-      title: 'Marketing Digital',
+      title: 'Data Cleansing',
       icon: '📈',
-      description: 'Estrategias de marketing para aumentar tu presencia online.',
-      features: ['SEO/SEM', 'Social Media', 'Email Marketing', 'Analytics']
+      description: 'Convertimos hojas de cálculo desordenadas, bases de datos incompletas y archivos dispersos en un sistema limpio, estructurado y fácil de usar.',
+      features: ['Organización de datos', 'Limpieza de datos', 'Estandarización', 'Validación']
     }
   ];
 
