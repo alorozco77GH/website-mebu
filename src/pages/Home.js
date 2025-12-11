@@ -132,15 +132,6 @@ const Home = () => {
             </div>
             <div className="client-logo">LOGO 3</div>
             <div className="client-logo">LOGO 4</div>
-            {/* Duplicados para efecto infinito */}
-            <div className="client-logo">
-              <img src={client1} alt="Cliente 1" />
-            </div>
-            <div className="client-logo">
-              <img src={client2} alt="Cliente 2" />
-            </div>
-            <div className="client-logo">LOGO 3</div>
-            <div className="client-logo">LOGO 4</div>
           </div>
         </div>
       </section>

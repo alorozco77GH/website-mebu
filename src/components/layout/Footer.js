@@ -35,12 +35,6 @@ const Footer = () => {
             <p>contacto@mebu.com</p>
             <p>+57 310 395 6894</p>
           </div>
-          <div className="footer-social">
-            <a href="#" aria-label="Instagram" className="social-icon">📷</a>
-            <a href="#" aria-label="WhatsApp" className="social-icon">💬</a>
-            <a href="#" aria-label="YouTube" className="social-icon">📺</a>
-            <a href="#" aria-label="LinkedIn" className="social-icon">💼</a>
-          </div>
           <div className="footer-copyright">
             <p>&copy; {currentYear} MeBu, soluciones digitales</p>
           </div>
