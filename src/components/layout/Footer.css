@@ -1,96 +1,108 @@
 .footer {
-  background-color: #171717; /* gray10 - Step 10: Hovered solid backgrounds (darker footer) */
+  background-color: #282c34;
   color: white;
-  padding: 3rem 0 1rem;
+  padding: 3rem 2rem 2rem;
   margin-top: auto;
 }
 
 .footer-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 2rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
 }
 
-.footer-section h3 {
-  color: #DDED31; /* yellow9 - Step 9: Solid backgrounds */
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.footer-section h4 {
-  color: #DDED31; /* yellow9 - Step 9: Solid backgrounds */
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
-.footer-section p {
-  color: #b0b0b0;
-  line-height: 1.6;
+.footer-logo-image {
+  width: 80px;
+  height: 80px;
 }
 
-.footer-section ul {
-  list-style: none;
-  padding: 0;
+.footer-logo h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #DDED31;
   margin: 0;
+  letter-spacing: 0.5rem;
 }
 
-.footer-section ul li {
-  margin-bottom: 0.5rem;
-  color: #b0b0b0;
+.footer-contact {
+  margin-bottom: 1.5rem;
 }
 
-.footer-section ul li a {
-  color: #b0b0b0;
-  text-decoration: none;
-  transition: color 0.3s ease;
+.footer-contact p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
 }
 
-.footer-section ul li a:hover {
-  color: #0CCE6B; /* green9 - Step 9: Solid backgrounds */
-}
-
-.social-links {
+.footer-social {
   display: flex;
   gap: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
 }
 
-.social-links a {
+.social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  background-color: #262626; /* gray9 - Step 9: Solid backgrounds */
+  width: 45px;
+  height: 45px;
+  background-color: #0A0A0A;
   color: white;
   text-decoration: none;
   border-radius: 50%;
+  font-size: 1.3rem;
   transition: all 0.3s ease;
 }
 
-.social-links a:hover {
-  background-color: #EF2D56; /* red9 - Step 9: Solid backgrounds */
-  color: white;
+.social-icon:hover {
+  background-color: #EF2D56;
   transform: translateY(-3px);
 }
 
-.footer-bottom {
-  text-align: center;
-  padding: 2rem 0 1rem;
-  margin-top: 2rem;
-  border-top: 1px solid #262626; /* gray9 - Step 9: Solid backgrounds */
-}
-
-.footer-bottom p {
-  color: #b0b0b0;
+.footer-copyright p {
   margin: 0;
+  font-size: 0.95rem;
+  color: white;
+  font-weight: 500;
 }
 
-@media (max-width: 768px) {
+.footer-right {
+  display: none;
+}
+
+@media (max-width: 968px) {
   .footer-container {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     gap: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-logo h2 {
+    font-size: 2rem;
+  }
+
+  .footer-logo-image {
+    width: 60px;
+    height: 60px;
   }
 }

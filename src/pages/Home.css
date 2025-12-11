@@ -2,6 +2,16 @@
   width: 100%;
 }
 
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add scroll margin to sections to account for fixed header */
+section {
+  scroll-margin-top: 80px;
+}
+
 .hero {
   background: linear-gradient(135deg, #0CCE6B 0%, #0AAA58 100%); /* green9-green10: Step 9-10 Solid backgrounds */
   color: white;
