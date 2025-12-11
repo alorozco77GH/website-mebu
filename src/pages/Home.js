@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import heroImage from '../assets/images/hero-image.svg';
+import client1 from '../assets/images/clients/client-1.png';
+import client2 from '../assets/images/clients/client-2.png';
 import './Home.css';
 import './Services.css';
 import './About.css';
@@ -122,13 +124,21 @@ const Home = () => {
         {/* Carrusel de logos de clientes */}
         <div className="clients-carousel">
           <div className="carousel-track">
-            <div className="client-logo">LOGO 1</div>
-            <div className="client-logo">LOGO 2</div>
+            <div className="client-logo">
+              <img src={client1} alt="Cliente 1" />
+            </div>
+            <div className="client-logo">
+              <img src={client2} alt="Cliente 2" />
+            </div>
             <div className="client-logo">LOGO 3</div>
             <div className="client-logo">LOGO 4</div>
             {/* Duplicados para efecto infinito */}
-            <div className="client-logo">LOGO 1</div>
-            <div className="client-logo">LOGO 2</div>
+            <div className="client-logo">
+              <img src={client1} alt="Cliente 1" />
+            </div>
+            <div className="client-logo">
+              <img src={client2} alt="Cliente 2" />
+            </div>
             <div className="client-logo">LOGO 3</div>
             <div className="client-logo">LOGO 4</div>
           </div>
