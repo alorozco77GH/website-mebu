@@ -45,6 +45,14 @@ const Footer = () => {
             <p>&copy; {currentYear} MeBu, soluciones digitales</p>
           </div>
         </div>
+
+        <div className="footer-nav-section">
+          <nav className="footer-nav">
+            <a href="#inicio" onClick={(e) => scrollToSection(e, 'inicio')}>Inicio</a>
+            <a href="#nosotros" onClick={(e) => scrollToSection(e, 'nosotros')}>Nosotros</a>
+            <a href="#servicios" onClick={(e) => scrollToSection(e, 'servicios')}>Servicios</a>
+          </nav>
+        </div>
       </div>
     </footer>
   );
