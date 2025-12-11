@@ -18,10 +18,51 @@
 
 .lead {
   font-size: 1.3rem;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 2rem;
   opacity: 0.95;
+}
+
+/* Carrusel de logos de clientes */
+.clients-carousel {
+  width: 100%;
+  overflow: hidden;
+  padding: 4rem 0;
+  background-color: #0A0A0A;
+  margin-top: 3rem;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 4rem;
+  animation: scroll 20s linear infinite;
+  width: fit-content;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.client-logo {
+  min-width: 200px;
+  height: 100px;
+  background-color: #FEF9C3;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #0A0A0A;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
 }
 
 .about-content {

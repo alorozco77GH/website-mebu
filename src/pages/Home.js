@@ -119,44 +119,18 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="about-content">
-          <div className="about-section">
-            <h2>Nuestra Misión</h2>
-            <p>
-              En MeBu, nuestra misión es proporcionar soluciones digitales innovadoras que impulsen 
-              el crecimiento y éxito de nuestros clientes. Nos comprometemos a entregar productos 
-              de alta calidad que superen las expectativas.
-            </p>
-          </div>
-
-          <div className="about-section">
-            <h2>Nuestra Visión</h2>
-            <p>
-              Ser reconocidos como líderes en soluciones digitales, estableciendo nuevos estándares 
-              de excelencia en la industria y creando un impacto positivo en cada proyecto que emprendemos.
-            </p>
-          </div>
-
-          <div className="about-section">
-            <h2>Nuestros Valores</h2>
-            <div className="values-grid">
-              <div className="value-item">
-                <h3>🎯 Excelencia</h3>
-                <p>Nos esforzamos por la perfección en cada proyecto</p>
-              </div>
-              <div className="value-item">
-                <h3>🤝 Integridad</h3>
-                <p>Actuamos con honestidad y transparencia</p>
-              </div>
-              <div className="value-item">
-                <h3>💡 Innovación</h3>
-                <p>Buscamos constantemente nuevas soluciones</p>
-              </div>
-              <div className="value-item">
-                <h3>🌟 Compromiso</h3>
-                <p>Dedicados al éxito de nuestros clientes</p>
-              </div>
-            </div>
+        {/* Carrusel de logos de clientes */}
+        <div className="clients-carousel">
+          <div className="carousel-track">
+            <div className="client-logo">LOGO 1</div>
+            <div className="client-logo">LOGO 2</div>
+            <div className="client-logo">LOGO 3</div>
+            <div className="client-logo">LOGO 4</div>
+            {/* Duplicados para efecto infinito */}
+            <div className="client-logo">LOGO 1</div>
+            <div className="client-logo">LOGO 2</div>
+            <div className="client-logo">LOGO 3</div>
+            <div className="client-logo">LOGO 4</div>
           </div>
         </div>
       </section>
